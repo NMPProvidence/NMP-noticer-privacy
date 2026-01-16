@@ -7,104 +7,109 @@
 </head>
 <body>
 
-<h1>Privacy Policy for NMP Noticer</h1>
+<div class="content_document">
 
-<p><strong>Effective Date:</strong> January 15, 2026</p>
-<p><strong>Application:</strong> NMP Noticer (note-taking app)</p>
+  <h1>Privacy Policy for NMP Noticer (NMP Notatnik)</h1>
 
-<hr />
+  <p><strong>Effective Date:</strong> January 15, 2026</p>
+  <p><strong>Application:</strong> NMP Noticer / NMP Notatnik (note-taking app)</p>
 
-<h2>1. Data Collection</h2>
-<p>
-  NMP Noticer does <strong>not collect, store, transmit, or share</strong>
-  any personal data or usage data. The application works entirely
-  <strong>offline</strong>.
-</p>
-<p>
-  All notes created in the app are stored <strong>locally on the user’s device</strong>
-  in a private SQLite database that is not accessible to other applications.
-</p>
-<p>The app does <strong>not</strong> use:</p>
-<ul>
-  <li>advertising or ad networks</li>
-  <li>analytics or tracking tools</li>
-  <li>cloud services or data synchronization</li>
-  <li>user accounts or registration</li>
-  <li>subscriptions or in-app payments</li>
-</ul>
+  <hr />
 
-<h2>2. Note Content and User Responsibility</h2>
-<p>
-  Any information entered into notes (including personal or sensitive data such as
-  names, email addresses, health information, or passwords) remains entirely
-  on the user’s device.
-</p>
-<p>
-  The developer does <strong>not</strong> have access to note content and does not
-  process it in any way. Users are fully responsible for the content they store
-  in the app.
-</p>
+  <h2>1. Data Collection and Storage</h2>
+  <p>
+    NMP Noticer does <strong>not collect, store, transmit, or share</strong>
+    any personal data or usage data. The application works entirely <strong>offline</strong>.
+  </p>
+  <p>
+    All notes created in the app are stored in a private SQLite database on the user's device that is not
+    accessible to other applications.
+    The developer does not have access to note content and does not process it in any way.
+    The application does not communicate with any external servers operated by the developer.
+  </p>
 
-<h2>3. Password Protection</h2>
-<p>
-  Users may protect selected notes with a password.
-  Passwords are stored <strong>locally on the user’s device</strong> and are used
-  solely to secure access to notes within the application.
-</p>
-<p>
-  Passwords are <strong>never transmitted, shared, or sent outside the device</strong>
-  and are not accessible to the developer or any third parties.
-</p>
-<p>
-  If a password is lost, the protected note cannot be recovered.
-</p>
+  <p>The app does <strong>not</strong> use:</p>
+  <ul>
+    <li>advertising or ad networks</li>
+    <li>analytics or tracking tools</li>
+    <li>developer-managed cloud services or data synchronization</li>
+    <li>user accounts or registration</li>
+    <li>subscriptions or in-app payments</li>
+  </ul>
 
-<h2>4. Backups</h2>
-<p>
-  Users may manually create backups of their notes on their own device.
-  Backups are stored locally as database files and may optionally be protected
-  with a password chosen by the user.
-</p>
-<p>
-  The developer has no access to backup files and does not receive any data from them.
-  Backup passwords are not stored or transmitted and cannot be recovered.
-</p>
+  <h2>2. Password Protection</h2>
+  <p>
+    Users may protect selected notes with a password. Passwords are stored
+    <strong>locally on the user's device</strong> and are used solely to secure
+    access to notes within the application.
+  </p>
+  <p>
+    Passwords are <strong>never transmitted, shared, or sent outside the device</strong>.
+    <strong>Important:</strong> If a password is lost, the protected note cannot be recovered,
+    as the developer has no access to it.
+  </p>
 
-<h2>5. Data Deletion</h2>
-<p>
-  All data is stored locally on the device.
-  Users can delete notes at any time from within the app.
-</p>
-<p>
-  Uninstalling the application permanently removes all locally stored data.
-</p>
+  <h2>3. Backups and Storage Access Framework (SAF)</h2>
+  <p>
+    The application allows users to manually create backups of their notes.
+    NMP Noticer utilizes the Android <strong>Storage Access Framework (SAF)</strong>
+    to ensure maximum privacy and user control.
+  </p>
+  <p>
+    <strong>The application itself does not transmit any data outside the device.</strong>
+    When creating a backup, the application passes the data to the Android system,
+    and the <strong>user manually selects the final destination</strong> through
+    the system file picker. Depending on the user's device configuration and preferences,
+    this may include:
+  </p>
+  <ul>
+    <li>Internal device storage,</li>
+    <li>An external SD card,</li>
+    <li>Or any other location supported by the device's system file manager
+      (e.g., third-party cloud providers like Google Drive, OneDrive, or Dropbox).</li>
+  </ul>
+  <p>
+    The developer has no access to the backup files, does not know their storage location,
+    and does not receive any data from them.
+    Backup passwords (if set by the user) are not stored or transmitted and cannot be recovered.
+  </p>
 
-<h2>6. Children’s Privacy</h2>
-<p>
-  NMP Noticer is not intended for children under the age of 13.
-  The app does not knowingly collect any data from children.
-</p>
+  <h2>4. Data Deletion</h2>
+  <p>
+    All primary data is stored locally. Users can delete notes at any time from within the app.
+    Uninstalling the application permanently removes all locally stored data.
+    Manual backups created by the user in external locations (SD card, cloud)
+    remain under the user's control and must be deleted manually.
+  </p>
 
-<h2>7. Privacy Policy Changes</h2>
-<p>
-  Any changes to this Privacy Policy will be published
-  with future updates of this document.
-</p>
+  <h2>5. Children's Privacy</h2>
+  <p>
+    NMP Noticer is not intended for children under the age of 13.
+    The app does not knowingly collect any data from children,
+    as no data collection mechanisms are implemented.
+  </p>
 
-<h2>8. Contact</h2>
-<p>
-  If you have any questions regarding this Privacy Policy, please contact:
-</p>
-<p>
-  <strong>Karol Adamski</strong><br />
-  ul. Pułaskiego 7/2<br />
-  87-100 Toruń<br />
-  Poland<br />
-  Email:
-  <a href="mailto:npm.providence.office@gmail.com">
-    npm.providence.office@gmail.com
-  </a>
-</p>
+  <h2>6. Privacy Policy Changes</h2>
+  <p>
+    Any changes to this Privacy Policy will be published with future updates of the application.
+  </p>
+
+  <h2>7. Contact</h2>
+  <p>
+    If you have any questions regarding this Privacy Policy, please contact:
+  </p>
+  <p>
+    <strong>Karol Adamski</strong><br />
+    ul. Pułaskiego 7/2<br />
+    87-100 Toruń<br />
+    Poland<br />
+    Email:
+    <a href="mailto:npm.providence.office@gmail.com">
+      npm.providence.office@gmail.com
+    </a>
+  </p>
+
+</div>
 
 </body>
 </html>
